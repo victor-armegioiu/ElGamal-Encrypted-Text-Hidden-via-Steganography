@@ -1,0 +1,7 @@
+As an example of subclassing, the random module provides the WichmannHill class that 
+implements an alternative generator in pure Python. The class provides a backward 
+compatible way to reproduce results from earlier versions of Python, which used 
+the Wichmann-Hill algorithm as the core generator. Note that this Wichmann-Hill generator
+can no longer be recommended: its period is too short by contemporary standards, and the
+sequence generated is known to fail some stringent randomness tests. See the references
+below for a recent variant that repairs these flaws.
