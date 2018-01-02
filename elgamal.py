@@ -103,7 +103,7 @@ class ElGamal:
 		cipher_text = self.cipher_text.split()
 
 		if len(cipher_text) & 1:
-			return 'Malformed Cipher Text'
+			return '[ERROR] Ciphertext should be comprised of pairs.'
 
 		for i in range(0, len(cipher_text), 2):
 			c1 = int(cipher_text[i])
