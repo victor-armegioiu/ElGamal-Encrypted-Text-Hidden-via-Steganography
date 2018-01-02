@@ -1,3 +1,5 @@
+__author__ = "Victor Armegioiu"
+
 from ntheory_utilities import * 
 from primality_tests import generate_prime
 
@@ -12,7 +14,7 @@ from primality_tests import generate_prime
 	'x' - private key, chosen randomly from this group {1... ord(g) - 1} 
 	      where ord(g) = totient(2 * q + 1) = 2 * q
 	'h' - g ^ x, to be used for encryption (finding 'x' is hard, because of
-											the discrete logarithm problem)
+						the discrete logarithm problem)
 """
 
 class KeyGenerator:
