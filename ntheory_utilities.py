@@ -1,3 +1,5 @@
+__author__ = "Victor Armegioiu"
+
 from math import sqrt
 import random
 
