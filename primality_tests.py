@@ -109,7 +109,7 @@ def lucas_pp(n, D, P, Q):
 
     If the number is a perfect square, then there would be no point in trying
     to find a D s.t. (D / n) = -1 since there is no solution, hence the candidate
-    is obviously a candidate.
+    is obviously a composite number.
 
     Other implementation details, regarding the choosing of P and Q can be found
     below.
